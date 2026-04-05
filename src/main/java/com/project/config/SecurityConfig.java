@@ -25,6 +25,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.addAllowedOriginPattern("https://aayush-healthcare-frontend.vercel.app");
         configuration.addAllowedOriginPattern("https://*.vercel.app");
+        configuration.addAllowedOriginPattern("https://aayush-healthcare-frontend.onrender.com");
         configuration.addAllowedOriginPattern("http://localhost:5173");
         configuration.addAllowedOriginPattern("http://localhost:3000");
         configuration.addAllowedHeader("*");
